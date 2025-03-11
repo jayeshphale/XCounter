@@ -1,0 +1,44 @@
+.counter-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  h2 {
+    font-size: 3rem;
+    margin: 10px 0;
+  }
+  
+  .button-group {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+  
+  .btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  .increment {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  .decrement {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
