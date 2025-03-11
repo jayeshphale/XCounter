@@ -9,7 +9,7 @@ function Counter() {
       <h1>Count: {count}</h1>
       <button className="btn increment" onClick={() => setCount((prev) => prev + 1)}>Increment</button>
       <button className="btn decrement" onClick={() => setCount((prev) => prev - 1)}>Decrement</button>
-    </div>
+      </div>
   );
 }
 
